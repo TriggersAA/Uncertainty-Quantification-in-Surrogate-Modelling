@@ -1,0 +1,29 @@
+name: Syntax Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile Python sources
+        run: |
+          python -m compileall \
+            project_paths.py \
+            01_samplying \
+            02_abaqus \
+            03_postprocess \
+            04_PCA \
+            05_autoencoder_gpr \
+            06_shape_scale_gpr \
+            07_processing \
+            augmentation_physics_fixed \
+            Plottings
+      - name: Run smoke tests
+        run: python -m unittest discover -s tests -p "test_*.py"

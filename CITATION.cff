@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "Uncertainty Quantification and Surrogate Modelling Pipeline for Abaqus-Based Structural Response Analysis"
+message: "If you use this repository in academic work, please cite it using the metadata below."
+type: software
+version: 0.1.0
+date-released: 2026-03-13
+authors:
+  - family-names: "Badejo"
+    given-names: "Olajide"
+  - family-names: "Akanmu"
+    given-names: "Sulaiman Abdul-Hafiz"
+abstract: >
+  End-to-end research code for uncertainty quantification, Abaqus finite element
+  simulation, surrogate training, validation, and downstream sensitivity analysis
+  for reinforced concrete structural response curves.
+license: "MIT"
+keywords:
+  - uncertainty quantification
+  - surrogate modeling
+  - finite element analysis
+  - Abaqus
+  - Gaussian processes
+  - autoencoders

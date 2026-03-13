@@ -1,0 +1,109 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local virtual-environment artifacts present in this folder
+activate
+activate.bat
+activate.fish
+Activate.ps1
+deactivate.bat
+python.exe
+pythonw.exe
+pip.exe
+pip3.exe
+pip3.14.exe
+f2py.exe
+fonttools.exe
+numpy-config.exe
+pyftmerge.exe
+pyftsubset.exe
+salib.exe
+torchfrtrace.exe
+torchrun.exe
+tqdm.exe
+ttx.exe
+isympy.exe
+get_gprof
+get_objgraph
+undill
+
+# Abaqus and solver-generated artifacts
+*.odb
+*.dat
+*.msg
+*.sta
+*.prt
+*.com
+*.env
+*.exception
+*.lck
+
+# Generated Abaqus input/output trees
+/abaqus_inp/
+/abaqus_jobs/
+/outputs_inp/
+/results/
+/02_abaqus/extracted_data/
+/02_abaqus/fem_visualizations/
+/02_abaqus/fem_reports/
+
+# Stage 1 generated plots
+/01_samplying/Sampling_plots/
+
+# Stage 3 extracted datasets
+/03_postprocess/01_extracted_data/
+
+# Stage 4 generated models and validation outputs
+/04_PCA/01_pca_reduction/pca_outputs.xlsx
+/04_PCA/01_pca_reduction/models/
+/04_PCA/01_pca_reduction/outputs/
+/04_PCA/02_validation/
+/04_PCA/05_interactive_outputs/
+
+# Stage 5 generated preprocessing, models, evaluations, and plots
+/05_autoencoder_gpr/data_preprocessed/
+/05_autoencoder_gpr/output_autoencoder_improved/
+/05_autoencoder_gpr/output_surrogates_improved/
+/05_autoencoder_gpr/output_evaluation/
+/05_autoencoder_gpr/output_plots/
+/05_autoencoder_gpr/__pycache__/
+
+# Stage 6 generated splits, models, and validation outputs
+/06_shape_scale_gpr/split/
+/06_shape_scale_gpr/output_pca_shapes/
+/06_shape_scale_gpr/output_surrogates/
+/06_shape_scale_gpr/output_validation/
+/06_shape_scale_gpr/__pycache__/
+
+# Stage 7 generated diagnostics and final analysis artifacts
+/07_processing/00_diagnostics/
+/07_processing/06_surrogate_comparison/
+/07_processing/07_fem_validation/
+/07_processing/08_uncertainty_quantification/
+/07_processing/08_uncertainty_quantification_FIXED/
+/07_processing/09_sensitivity_analysis/
+/07_processing/09_sensitivity_analysis_FIXED/
+/07_processing/10_final_outputs/
+/07_processing/__pycache__/
+
+# Augmentation outputs
+/augmentation_physics_fixed/processed_inputs_2_aug.csv
+/augmentation_physics_fixed/load_displacement_full_aug.csv
+/augmentation_physics_fixed/crack_evolution_full_aug.csv
+/augmentation_physics_fixed/augmentation_validation.png
+
+# Generated figures
+*.png
+*.zip
+
+# Trained model binaries and arrays
+*.joblib
+*.pt
+*.npy
+*.npz
