@@ -1,4 +1,4 @@
-# Uncertainty Quantification and Surrogate Modelling Pipeline
+# Uncertainty.Quantification.io
 
 This project implements a full workflow for uncertainty quantification of structural response curves derived from Abaqus simulations of a reinforced-concrete beam.
 

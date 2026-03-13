@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Uncertainty Quantification and Surrogate Modelling Pipeline for Abaqus-Based Structural Response Analysis"
+title: "Uncertainty.Quantification.io"
 message: "If you use this repository in academic work, please cite it using the metadata below."
 type: software
 version: 0.1.0

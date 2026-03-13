@@ -1,4 +1,4 @@
-# Uncertainty Quantification and Surrogate Modelling Pipeline
+# Uncertainty.Quantification.io
 
 End-to-end research code for uncertainty quantification of reinforced-concrete beam response using Abaqus finite element simulations and multiple surrogate-model families.
 

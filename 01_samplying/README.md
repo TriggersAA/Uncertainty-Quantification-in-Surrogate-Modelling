@@ -1,4 +1,4 @@
-# Uncertainty Quantification - Input Sampling Pipeline
+# Uncertainty.Quantification.io - Input Sampling Pipeline
 
 ---
 
